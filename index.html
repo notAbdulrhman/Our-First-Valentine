@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Love Timeline</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="page page-home">
+    <div class="background-blur"></div>
+    <main class="container">
+      <header class="hero">
+        <h1>Our Love Timeline</h1>
+        <p class="subtitle"></p>
+      </header>
+
+      <section class="cards">
+        <article class="card card-primary">
+          <h2>How Many Days We Know Each Other</h2>
+          <p class="card-caption">Since 3 October 2025.</p>
+          <div class="timer" id="since-timer">
+            <div class="time-block">
+              <span class="time-number" id="since-days">0</span>
+              <span class="time-label">Days</span>
+            </div>
+            <div class="time-block">
+              <span class="time-number" id="since-hours">0</span>
+              <span class="time-label">Hours</span>
+            </div>
+            <div class="time-block">
+              <span class="time-number" id="since-minutes">0</span>
+              <span class="time-label">Minutes</span>
+            </div>
+            <div class="time-block">
+              <span class="time-number" id="since-seconds">0</span>
+              <span class="time-label">Seconds</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card-secondary">
+          <h2>Our First Valentine’s Day</h2>
+          <p class="card-caption">3boody X beba</p>
+          <div class="timer" id="valentine-timer">
+            <div class="time-block">
+              <span class="time-number" id="val-days">0</span>
+              <span class="time-label">Days</span>
+            </div>
+            <div class="time-block">
+              <span class="time-number" id="val-hours">0</span>
+              <span class="time-label">Hours</span>
+            </div>
+            <div class="time-block">
+              <span class="time-number" id="val-minutes">0</span>
+              <span class="time-label">Minutes</span>
+            </div>
+            <div class="time-block">
+              <span class="time-number" id="val-seconds">0</span>
+              <span class="time-label">Seconds</span>
+            </div>
+          </div>
+          <p class="valentine-status" id="valentine-status"></p>
+        </article>
+      </section>
+
+      <section class="actions">
+        <button id="love-button" class="love-button" disabled>
+          Love You
+        </button>
+        <p class="hint-text" id="lock-hint">
+        </p>
+      </section>
+    </main>
+
+    <div class="floating-hearts" aria-hidden="true">
+      <span>❤️</span>
+      <span>💖</span>
+      <span>💖</span>
+      <span>💖</span>
+      <span>❤️</span>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
